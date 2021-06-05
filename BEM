@@ -1,0 +1,11 @@
+<!-- BLOQUE -->
+<main class="Padre">
+	<!-- BLOQUE__ELEMENTO --> 
+	<section class="Padre__Hijo">
+		<!-- BLOQUE__ELEMENTO--MODIFICADOR -->
+		<article class="Padre__Hijo--Mayor"></article>
+	</section>
+	<section class="Padre__Hijo"></section>
+	<section class="Padre__Hijo"></section>
+	<section class="Padre__Hijo"></section>
+ </main>
