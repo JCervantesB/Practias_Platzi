@@ -1,0 +1,13 @@
+/* Selector universal, nos ayuda a evitar el scrolling en nuestras paginas web y se usa con "*" */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px;
+}

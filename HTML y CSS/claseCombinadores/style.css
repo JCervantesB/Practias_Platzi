@@ -1,0 +1,18 @@
+/* Combinador hermano cercano o adyacente "Adjacent sibling" */
+h2 + p {
+    color: red;
+}
+
+/* Combinador hermano general "General sibling" */
+h2 ~ p {
+    color: blue;
+}
+
+/* Combinador hijo y desendientes */
+div > p {
+    color: coral;
+}
+
+div p {
+    color: aqua;
+}
