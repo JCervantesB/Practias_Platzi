@@ -1,0 +1,21 @@
+extend componentes/plantilla.pug
+block contenidos
+    section.home
+        aside.home__menu
+            h2 menu 
+            ul 
+                each enlace in enlaces
+                    li.home__enlaces=enlace 
+        section.home__articulo
+            h2 #{tituloPrincipal}
+            p.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Commodi, quos cumque voluptatum labore nisi id quod temporibus 
+                tempore eos esse quae minima facere culpa numquam doloremque vel provident, cum quibusdam?
+            p.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita enim quas eos sed recusandae totam repudiandae blanditiis quae officiis accusantium, explicabo, 
+                nisi consequuntur odit, eligendi illo iusto provident error! Deleniti voluptatum exercitationem nulla dolores 
+                excepturi delectus, repellat ullam? Sed, ea voluptatibus quam enim architecto cum non recusandae nulla nisi maxime!
+
+            a.boton Ver Más

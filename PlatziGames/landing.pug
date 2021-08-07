@@ -1,0 +1,16 @@
+extend componentes/plantilla.pug
+block contenidos
+		section.intro 
+			.intro__imagen: img(src="images/imagen.png")
+			.intro__contenido
+				h2= tituloPrincipal
+				p
+					| Lorem ipsum dolor sit amet consectetur, 
+					| adipisicing elit. Quibusdam, obcaecati.
+					| Lorem ipsum dolor sit amet consectetur, 
+					| adipisicing elit. Quibusdam, obcaecati.
+					span Lorem ipsum dolor sit amet.
+				a.boton Leer Más
+		main.contenido 
+			each titulo in titulos
+				+caja('imagen.png', titulo, 'Lorem ipsum dolor sit amet consectetur adipisicing elit')
